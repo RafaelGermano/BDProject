@@ -1,0 +1,32 @@
+﻿select * from estabelecimento;
+select * from est_endereÇo;
+select * from est_tipo;
+
+CREATE TABLE ESTABELECIMENTO (
+
+EST_ID int,
+EST_Name varchar(255),
+EST_Telefone varchar(255),
+PRIMARY KEY (EST_ID)
+
+);
+
+CREATE TABLE EST_ENDEREÇO (
+
+EST_ID int,
+EST_RUA varchar(255),
+EST_NUM int,
+EST_BAIRRO varchar(255),
+PRIMARY KEY (EST_ID),
+FOREIGN KEY (EST_ID) REFERENCES ESTABELECIMENTO(EST_ID)
+
+);
+
+CREATE TABLE EST_TIPO (
+
+EST_ID int,
+EST_TIPO varchar(255),
+PRIMARY KEY (EST_ID),
+FOREIGN KEY (EST_ID) REFERENCES ESTABELECIMENTO(EST_ID)
+
+);
