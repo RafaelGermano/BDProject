@@ -43,8 +43,8 @@
 	    <div class="barra-menu">
         	<nav class="barra">
                 <ul>
-                    <li><a class="buscarA" onClick="painelBuscar();">Home</a></span></li>
-                    <li><a class="informacao">Sobre</a></li>
+                    <li><a class="buscarA" onClick="buscar();">Home</a></span></li>
+                    <li><a class="informacao" onClick="cadastrar();">Sobre</a></li>
                     <li><a class="contate-nos"><span>Gestão</span></a></li>
                 </ul>
 	        </nav>

@@ -15,19 +15,18 @@ h1				   { font-family: "Roboto Condensed"; }
 
 input[type="text"], label, select, input[type="submit"] { font-family: "Roboto Condensed"; font-size: 2.4em; }
 
-.buscarPainel      { background-color: #65889A; height: 40em; width: 48.8%; position: absolute; border-radius: 4px; 
-					 border: 2px #99C6DC solid; }
+.buscarPainel,.cadastrarPainel { background-color: #65889A; height: 40em; width: 48.8%; position: absolute; border-radius: 4px; 
+					 border: 2px #99C6DC solid; display: block; }
 					 
-.buscarPainel h1                 { margin-left: 1.1em; font-size: 3.6em; color: white; }					
-.buscarPainel label              { color: white; margin-left: 1.7em; }
-.buscarPainel input[type="text"] { margin-left: 1em; margin-bottom: 1em; padding-left: 0.5em; color: black; border-radius: 3px; width: 450px; }
-.buscarPainel select             { margin-left: 1.6em; width: 250px; margin-bottom: 1em; padding-left: 0.25em; }
-.buscarPainel input[type="text"].local { margin-left: 1.1em; width: 235px; }
-.buscarPainel input[type="submit"].buscar-button { margin-left: 1.7em; margin-top: 1.7em; width: 140px; }
+.buscarPainel h1, .cadastrarPainel h1  { margin-left: 1.1em; font-size: 3.6em; color: white; }					
+label              { color: white; margin-left: 1.7em; }
+input[type="text"] { margin-left: 1em; margin-bottom: 1em; padding-left: 0.5em; color: black; border-radius: 3px; width: 450px; }
+select             { margin-left: 1.6em; width: 250px; margin-bottom: 1em; padding-left: 0.25em; }
+input[type="text"].local { margin-left: 1.1em; width: 235px; }
+input[type="submit"].buscar-button { margin-left: 1.7em; margin-top: 1.7em; width: 140px; }
 /*----*/
 
 /*Painel de Resultados*/
 .map_canvas   	  { background-color: #77878F; height: 40em; width: 48.8%; position: absolute; margin-left: 67.1em; border-radius: 4px;
 					border: 2px #99C6DC solid; }
 /*----*/
-
