@@ -53,8 +53,18 @@
     	<div class="meio">
         	<div class="buscarPainel">
             	<h1> Busca </h1>
-				<label for="nome">Nome: </label>
-                <input type="text" tabindex="1" maxlength="80" name="nome" class="nome" placeholder="Nome do restaurante"/><br>
+                <form action="" name="form1" class="form1" id="form1" method="post" enctype="multipart/form-data">
+					<label for="nome">Nome: </label>
+	                <input type="text" tabindex="1" maxlength="80" name="nome" class="nome" placeholder="Nome do restaurante"/><br>
+                    <label for="tipo">Tipo: </label>
+	                <select class="tipo">
+	                    <option value="Culinária Brasileira">Culinária Brasileira</option>
+	                    <option value="Culinária Japonesa">Culinária Japonesa</option>
+	                    <option value="Culinária Churrascaria">Churrascaria</option>
+	                    <option value="Culinária Fast Food">Fast Food</option>
+	                    <option value="Culinária Pizzaria">Pizzaria</option>                                                                        
+                    </select>
+                </form>
             </div>
             <div class="map_canvas" id="map_canvas">
             </div>
