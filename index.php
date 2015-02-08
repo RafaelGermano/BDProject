@@ -53,7 +53,8 @@
     	<div class="meio">
         	<div class="buscarPainel">
             	<h1> Busca </h1>
-				<label for="nome">
+				<label for="nome">Nome: </label>
+                <input type="text" tabindex="1" maxlength="80" name="nome" class="nome" placeholder="Nome do restaurante"/><br>
             </div>
             <div class="map_canvas" id="map_canvas">
             </div>
